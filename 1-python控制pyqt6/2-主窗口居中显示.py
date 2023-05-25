@@ -6,6 +6,10 @@
 import sys
 from PyQt6.QtGui import QIcon
 from PyQt6.QtWidgets import QMainWindow, QApplication
+"""
+左上顶点x坐标 = （屏幕宽度 - 显示窗口宽度） / 2
+左上顶点y坐标 = （屏幕高度 - 显示窗口高度） / 2
+"""
 
 
 class CenterWindow(QMainWindow):

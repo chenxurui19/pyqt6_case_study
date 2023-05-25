@@ -8,6 +8,21 @@ from PyQt6.QtWidgets import QVBoxLayout, QMainWindow, QApplication, QLabel, QWid
 from PyQt6.QtGui import QPixmap, QPalette
 from PyQt6.QtCore import Qt
 
+"""
+常用方法：
+setAlignment():设置文本对齐方式
+setIndent():设置文本缩进
+text():获取文本内容
+setBuddy():设置伙伴关系
+setText():设置文本内容
+selectedText():返回所选择的字符
+setWordWrap():设置是否允许换行
+
+QLabel常用的信号（事件）：
+当鼠标滑过QLabel控件时触发：linkHovered
+当鼠标单击QLabel控件时触发：linkeActivated
+"""
+
 
 class QLabelDemo(QWidget):
     def __init__(self):

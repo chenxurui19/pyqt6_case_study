@@ -6,6 +6,13 @@
 import sys
 from PyQt6.QtWidgets import QMainWindow, QApplication
 from PyQt6.QtGui import QIcon
+"""
+主窗口基本操作
+主窗口有三种类型：
+QMainWindow:可以包含菜单栏、工具栏、状态栏和标题栏，是最常见的窗口形式
+QWidget:对话窗口的基类，没有菜单栏、工具栏、状态栏（常见为弹出窗口)
+QDialog:不确定窗口的用途，就使用该窗口
+"""
 
 
 class FirstWindow(QMainWindow):

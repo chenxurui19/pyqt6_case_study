@@ -5,6 +5,9 @@
 # @Description :
 from PyQt6.QtWidgets import *
 import sys
+"""
+通过热键将label对应的输入框获得焦点
+"""
 
 
 class QLabelBuddy(QDialog):

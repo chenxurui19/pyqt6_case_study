@@ -7,6 +7,12 @@ import sys
 from PyQt6.QtCore import *
 from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
+"""
+QPushButton 一般按钮
+AToolButton 工具条
+QRadioButton    单选按钮
+QCheckBox   多选按钮
+"""
 
 
 class QPushButtonDemo(QDialog):

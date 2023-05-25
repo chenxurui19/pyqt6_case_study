@@ -5,6 +5,14 @@
 # @Description :
 from PyQt6.QtWidgets import *
 import sys
+"""
+文本框的基本功能：输入单行的文本
+主要有四种回显方式：
+1.Normal    --输入就显示
+2.NoEcho    --输入后不显示
+3.Password  --输入后显示特定字符
+4.PasswordEchoOneEdit   --短暂显示输入内容，之后显示特定字符
+"""
 
 
 class QLineEditEchoMode(QWidget):

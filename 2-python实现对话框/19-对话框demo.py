@@ -7,6 +7,13 @@ import sys
 from PyQt6.QtCore import *
 from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
+"""
+QMessageBox 消息对话框
+QColorDialog 颜色对话框
+QFileDialog 文件保存
+QFontDialog 设置字体
+QInputDialog 获取用户输入信息
+"""
 
 
 class DialogDemo(QMainWindow):
